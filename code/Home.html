@@ -1,0 +1,171 @@
+<html>
+
+<head>
+  <title>"Quote Unquote"</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="container">
+
+  <nav class="navbar navbar-expand-sm bg-light">
+
+    <div class="container-fluid" style="background-color: #F6EEEF">
+
+      <a class="navbar-brand" href="#"><img src="name.png" width="300" alt="Quote Unquote"></a>
+      <!-- ARIA options are for ACCESSIBILITY  -->
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span> <img src="icon.png" width="50" alt="icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 " class="navigation">
+
+          <li class="nav-item">
+            <a class="nav-link active" style="color: #979B88; font-size: large;" aria-current="page"
+              href="Home.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" style="color: #979B88; font-size: large;" href="Cart.html">Cart</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" style="color: #979B88; font-size: large;" href="Contact.html">Contact Us</a>
+          </li>
+
+          <li class="nav-item btn-group dropdown ">
+
+            <button type="button" class="btn dropdown-toggle" style="color:#979B88; float: right; "
+              data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-person-fill"></i>
+            </button>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="p-4 nav-link" href="http://localhost/test/quoteunquote/logIn.php">Log In</a>
+              </li>
+              <li>
+                <a class="p-4 nav-link" href="http://localhost/test/quoteunquote/signUp.php">Sign Up</a>
+              </li>
+            </ul>
+
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- Picture Carousel -->
+  <div id="carouselExampleIndicators" class="carousel slide justify-content-center" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="banner.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="banner2.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Jumbotron -->
+  <div class="p-4 mb-4 rounded-4">
+    <div class="container-fluid py-5">
+      <h1 class="display-2 " style="color: #979B88;"> Shop Here for High Quality Clothes with Beautiful Messages!
+      </h1>
+      <a href="#hoodie" class="btn mt-3" style="background: #C1C6AE; color: rgb(248, 248, 248); font-size: 2em; font-family: 'Noto Serif', serif;"> Shop
+        Now</a>
+    </div>
+  </div>
+
+
+  <!-- Cards -->
+  <div class="row" style="color: #8183B8;">
+
+    <div class="col-md-6 p-4 mb-4" >
+      <div class="card" id="hoodie">
+        <img src="hoodie1.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Hoodie 1</h5>
+          <a href="Product01.html" class="btn btn-outline-secondary">View</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-6 p-4 mb-4" style="font-family: 'Noto Serif', serif;">
+      <div class="card">
+        <img src="hoodie2.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Hoodie 2</h5>
+          <a href="Product02.html" class="btn btn-outline-secondary">View</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-6 p-4 mb-4 " style="font-family: 'Noto Serif', serif;">
+      <div class="card">
+        <img src="tshirt.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Shirt</h5>
+          <a href="Product03.html" class="btn btn-outline-secondary">View</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-6 p-4 mb-4" style="font-family: 'Noto Serif', serif;">
+      <div class="card">
+        <img src="totebag.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Tote Bag</h5>
+          <a href="Product04.html" class="btn btn-outline-secondary">View</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-top pb-3 mb-3" style="font-family: 'Noto Serif', serif;">
+      <li class="nav-item"><a href="Home.html" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="Cart.html" class="nav-link px-2 text-muted">Cart</a></li>
+      <li class="nav-item"><a href="Contact.html" class="nav-link px-2 text-muted">Contact Us</a></li>
+      <li class="nav-item"><a href="http://localhost/test/quoteunquote/logIn.php" class="nav-link px-2 text-muted">Log In</a></li>
+      <li class="nav-item"><a href="http://localhost/test/quoteunquote/signUp.php" class="nav-link px-2 text-muted">Sign Up</a></li>
+    </ul>
+  </footer>
+
+</body>
+
+</html>

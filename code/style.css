@@ -1,0 +1,37 @@
+body {
+    background: #FBFAF9;
+    align-items: center;
+    font-family: 'Noto Serif', serif;
+  }
+
+  .justify {
+    text-align: justify;
+  }
+
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
+  li {
+    color: #979B88;
+  }
+  a{
+    color: #999AC6;
+    text-decoration: none;
+  }
+  a:hover{
+    color: #8183B8; 
+  }
+  nav {
+    background-color: #979B88
+  }
+  p {
+    text-align: center;
+  }
+div{
+align-items: center;
+}
+
+.card{
+    align-items: center;
+}
